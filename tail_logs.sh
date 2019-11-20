@@ -1,3 +1,3 @@
 #!/bin/bash
 
-tail -f /opt/apache_logs/logs/apache_access_logs.log
+tail -f /opt/company_logs/logs/company_product_logs.log
