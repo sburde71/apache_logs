@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /opt/apache_logs
-lib/access_logs.py > logs/apache_access_logs.log &
+cd /opt/company_logs
+lib/company_logs.py > logs/company_product_logs.log &
 exit 0
