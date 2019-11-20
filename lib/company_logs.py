@@ -101,8 +101,8 @@ class LogGenerator:
     def __init__(self, ipgen):
         self.ipgen = ipgen
         #self.set_products()
-        self.set_departments()
-        self.set_categories()
+        self.set_company_name()
+        self.set_company_products()
  
     '''
     def set_products(self):
