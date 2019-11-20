@@ -38,15 +38,21 @@ class IPGenerator:
         return ".".join(octets)
 
 class LogGenerator:
-    PRODUCTS = {}
+    #PRODUCTS = {}
+    
 
     REQUESTS = {
-        "/departments": 40,
-        "/department/*DEPARTMENT*/categories": 20,
-        "/department/*DEPARTMENT*/products": 10,
-        "/categories/*CATEGORY*/products": 5,
-        "/product/*PRODUCT*": 10,
-        "/add_to_cart/*PRODUCT*": 5,
+        #"/departments": 40,
+        "/companies": 40,
+        #"/department/*DEPARTMENT*/categories": 20,
+        "/company/*COMPANY_NAME*/products": 20,
+        #"/department/*DEPARTMENT*/products": 10,
+        "/company/*COMPANY_NAME*/": 10
+        #"/categories/*CATEGORY*/products": 5,
+        "/products/*COMPANY_PRODUCTS*": 10
+        #"/product/*PRODUCT*": 10,
+        #"/add_to_cart/*PRODUCT*": 5,
+        "/add_to_cart/*COMPANY_PRODUCTS*"
         "/login": 5,
         "/logout": 2,
         "/checkout": 3,
@@ -86,38 +92,40 @@ class LogGenerator:
         "Mozilla/5.0 (Windows NT 6.1; rv:30.0) Gecko/20100101 Firefox/30.0": 1
     }
 
-    DEPARTMENTS = {
+    COMPANY_NAME = {
     }
 
-    CATEGORIES = {
+    COMPANY_PRODUCTS = {
     }
 
     def __init__(self, ipgen):
         self.ipgen = ipgen
-        self.set_products()
+        #self.set_products()
         self.set_departments()
         self.set_categories()
  
+    '''
     def set_products(self):
         cwd = os.getcwd()
         json_text = open(cwd + '/data/products.json', 'r').read()
         products = json.loads(json_text)
         for p in products:
             self.PRODUCTS[p['product_id']] = int(5000/p['product_price'])
+    '''
 
-    def set_departments(self):
+    def set_company_name(self):
         cwd = os.getcwd()
-        json_text = open(cwd + '/data/departments.json', 'r').read()
-        depts = json.loads(json_text)
-        for p in depts:
-            self.DEPARTMENTS[p['department_name']] = 100/len(depts)
+        json_text = open(cwd + '/data/company_name.json', 'r').read()
+        company_name = json.loads(json_text)
+        for p in company_name:
+            self.COMPANY_NAME[p['company_name']] = 100/len(company_name)
 
-    def set_categories(self):
+    def set_company_products(self):
         cwd = os.getcwd()
-        json_text = open(cwd + '/data/categories.json', 'r').read()
-        cats = json.loads(json_text)
-        for p in cats:
-            self.CATEGORIES[p['category_name']] = 100/len(cats)
+        json_text = open(cwd + '/data/company_products.json', 'r').read()
+        company_product_name = json.loads(json_text)
+        for p in company_product_name:
+            self.COMPANY_PRODUCTS[p['company_product_name']] = 100/len(company_product_name)
 
     def write_qps(self, dest, qps):
         sleep = 1.0 / qps
@@ -129,11 +137,11 @@ class LogGenerator:
         for i in range(count):
             ip = self.ipgen.get_ip()
             request = self.pick_weighted_key(self.REQUESTS)
-            product = self.pick_weighted_key(self.PRODUCTS)
-            dept    = self.pick_weighted_key(self.DEPARTMENTS)
-            cat     = self.pick_weighted_key(self.CATEGORIES)
+            #product = self.pick_weighted_key(self.PRODUCTS)
+            company_name    = self.pick_weighted_key(self.COMPANY_NAME)
+            company_product_name     = self.pick_weighted_key(self.COMPANY_PRODUCTS)
 
-            request = urllib.quote(request.replace("*PRODUCT*",str(product)).replace("*DEPARTMENT*",dept).replace("*CATEGORY*",cat).lower())
+            request = urllib.quote(request.replace("*COMPANY_NAME*",company_name).replace("*COMPANY_PRODUCTS*",company_product_name).lower())
 
             ext = self.pick_weighted_key(self.EXTENSIONS)
             resp_code = self.pick_weighted_key(self.RESPONSE_CODES)
