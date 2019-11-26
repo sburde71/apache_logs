@@ -47,12 +47,12 @@ class LogGenerator:
         #"/department/*DEPARTMENT*/categories": 20,
         "/company/*COMPANY_NAME*/products": 20,
         #"/department/*DEPARTMENT*/products": 10,
-        "/company/*COMPANY_NAME*/": 10
+        "/company/*COMPANY_NAME*/": 10,
         #"/categories/*CATEGORY*/products": 5,
-        "/products/*COMPANY_PRODUCTS*": 10
+        "/products/*COMPANY_PRODUCTS*": 10,
         #"/product/*PRODUCT*": 10,
         #"/add_to_cart/*PRODUCT*": 5,
-        "/add_to_cart/*COMPANY_PRODUCTS*"
+        "/add_to_cart/*COMPANY_PRODUCTS*": 5,
         "/login": 5,
         "/logout": 2,
         "/checkout": 3,
