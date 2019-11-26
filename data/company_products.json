@@ -1,308 +1,308 @@
 [
 	{
-		"product_name" : "MacBook Pro"
+		"company_product_name" : "MacBook Pro"
 	},
 	{
-		"product_name" : "MacBook"
+		"company_product_name" : "MacBook"
 	},
 	{
-		"product_name" : "MacBook Air"
+		"company_product_name" : "MacBook Air"
 	},
 	{
-		"product_name" : "iMac"
+		"company_product_name" : "iMac"
 	},
 	{
-		"product_name" : "Apple TV"
+		"company_product_name" : "Apple TV"
 	},
 	{
-		"product_name" : "iPod Classic"
+		"company_product_name" : "iPod Classic"
 	},
 	{
-		"product_name" : "iPad 2,3, or 4"
+		"company_product_name" : "iPad 2,3, or 4"
 	},
 	{
-		"product_name" : "iPad Mini"
+		"company_product_name" : "iPad Mini"
 	},
 	{
-		"product_name" : "iPad Air"
+		"company_product_name" : "iPad Air"
 	},
 	{
-		"product_name" : "iPhone 6"
+		"company_product_name" : "iPhone 6"
 	},
 	{
-		"product_name" : "iPhone 6S"
+		"company_product_name" : "iPhone 6S"
 	},
 	{
-		"product_name" : "iPhone 6S Plus"
+		"company_product_name" : "iPhone 6S Plus"
 	},
 	{
-		"product_name" : "iPhone 7"
+		"company_product_name" : "iPhone 7"
 	},
 	{
-		"product_name" : "iPhone 7 Plus"
+		"company_product_name" : "iPhone 7 Plus"
 	},
 	{
-		"product_name" : "Airpods"
+		"company_product_name" : "Airpods"
 	},
 	{
-		"product_name" : "Apple Watch"
+		"company_product_name" : "Apple Watch"
 	},
 	{
-		"product_name" : "iPod Shuffle"
+		"company_product_name" : "iPod Shuffle"
 	},
 	{
-		"product_name" : "Android"
+		"company_product_name" : "Android"
 	},
 	{
-		"product_name" : "Google Assistant"
+		"company_product_name" : "Google Assistant"
 	},
 	{
-		"product_name" : "Google Base "
+		"company_product_name" : "Google Base "
 	},
 	{
-		"product_name" : "Google Calendar"
+		"company_product_name" : "Google Calendar"
 	},
 	{
-		"product_name" : "Google Cars"
+		"company_product_name" : "Google Cars"
 	},
 	{
-		"product_name" : "Google Chrome"
+		"company_product_name" : "Google Chrome"
 	},
 	{
-		"product_name" : "Google Chromecast"
+		"company_product_name" : "Google Chromecast"
 	},
 	{
-		"product_name" : "Google Chromebook"
+		"company_product_name" : "Google Chromebook"
 	},
 	{
-		"product_name" : "Google Code"
+		"company_product_name" : "Google Code"
 	},
 	{
-		"product_name" : "GCP"
+		"company_product_name" : "GCP"
 	},
 	{
-		"product_name" : "Google Classroom"
+		"company_product_name" : "Google Classroom"
 	},
 	{
-		"product_name" : "Google Dashboard"
+		"company_product_name" : "Google Dashboard"
 	},
 	{
-		"product_name" : "Google Docs"
+		"company_product_name" : "Google Docs"
 	},
 	{
-		"product_name" : "Google Express"
+		"company_product_name" : "Google Express"
 	},
 	{
-		"product_name" : "Google Fiber"
+		"company_product_name" : "Google Fiber"
 	},
 	{
-		"product_name" : "Google Flights"
+		"company_product_name" : "Google Flights"
 	},
 	{
-		"product_name" : "Google Groups"
+		"company_product_name" : "Google Groups"
 	},
 	{
-		"product_name" : "Google Hangouts"
+		"company_product_name" : "Google Hangouts"
 	},
 	{
-		"product_name" : "Google Hire"
+		"company_product_name" : "Google Hire"
 	},
 	{
-		"product_name" : "Google Inbox"
+		"company_product_name" : "Google Inbox"
 	},
 	{
-		"product_name" : "Google Mail"
+		"company_product_name" : "Google Mail"
 	},
 	{
-		"product_name" : "Google Mobile"
+		"company_product_name" : "Google Mobile"
 	},
 	{
-		"product_name" : "Google Nexus"
+		"company_product_name" : "Google Nexus"
 	},
 	{
-		"product_name" : "Google OnHub "
+		"company_product_name" : "Google OnHub "
 	},
 	{
-		"product_name" : "Google Patents"
+		"company_product_name" : "Google Patents"
 	},
 	{
-		"product_name" : "Google Pay"
+		"company_product_name" : "Google Pay"
 	},
 	{
-		"product_name" : "Google Photos"
+		"company_product_name" : "Google Photos"
 	},
 	{
-		"product_name" : "Google Play"
+		"company_product_name" : "Google Play"
 	},
 	{
-		"product_name" : "vSphere"
+		"company_product_name" : "vSphere"
 	},
 	{
-		"product_name" : "vCenter Server"
+		"company_product_name" : "vCenter Server"
 	},
 	{
-		"product_name" : "VMware Enterprise PKS"
+		"company_product_name" : "VMware Enterprise PKS"
 	},
 	{
-		"product_name" : "vSphere Integrated Containers"
+		"company_product_name" : "vSphere Integrated Containers"
 	},
 	{
-		"product_name" : "vCloud Director"
+		"company_product_name" : "vCloud Director"
 	},
 	{
-		"product_name" : "NSX Data Center"
+		"company_product_name" : "NSX Data Center"
 	},
 	{
-		"product_name" : "NSX Cloud"
+		"company_product_name" : "NSX Cloud"
 	},
 	{
-		"product_name" : "vRealize Network Insight"
+		"company_product_name" : "vRealize Network Insight"
 	},
 	{
-		"product_name" : "VMware HCX"
+		"company_product_name" : "VMware HCX"
 	},
 	{
-		"product_name" : "AppDefense"
+		"company_product_name" : "AppDefense"
 	},
 	{
-		"product_name" : "vSAN"
+		"company_product_name" : "vSAN"
 	},
 	{
-		"product_name" : "Site Recovery Manager"
+		"company_product_name" : "Site Recovery Manager"
 	},
 	{
-		"product_name" : "VMware Site Recovery"
+		"company_product_name" : "VMware Site Recovery"
 	},
 	{
-		"product_name" : "Virtual Volumes"
+		"company_product_name" : "Virtual Volumes"
 	},
 	{
-		"product_name" : "Dell EMC VxRail"
+		"company_product_name" : "Dell EMC VxRail"
 	},
 	{
-		"product_name" : "vRealize Suite"
+		"company_product_name" : "vRealize Suite"
 	},
 	{
-		"product_name" : "vCloud Suite"
+		"company_product_name" : "vCloud Suite"
 	},
 	{
-		"product_name" : "Wavefront by VMware"
+		"company_product_name" : "Wavefront by VMware"
 	},
 	{
-		"product_name" : "Workspace ONE"
+		"company_product_name" : "Workspace ONE"
 	},
 	{
-		"product_name" : "Amazon Athena"
+		"company_product_name" : "Amazon Athena"
 	},
 	{
-		"product_name" : "Amazon EMR"
+		"company_product_name" : "Amazon EMR"
 	},
 	{
-		"product_name" : "Amazon Redshift"
+		"company_product_name" : "Amazon Redshift"
 	},
 	{
-		"product_name" : "Amazon Kinesis"
+		"company_product_name" : "Amazon Kinesis"
 	},
 	{
-		"product_name" : "Amazon Quicksight"
+		"company_product_name" : "Amazon Quicksight"
 	},
 	{
-		"product_name" : "AWS Glue"
+		"company_product_name" : "AWS Glue"
 	},
 	{
-		"product_name" : "AWS Data Lake"
+		"company_product_name" : "AWS Data Lake"
 	},
 	{
-		"product_name" : "Amazon CloudWatch"
+		"company_product_name" : "Amazon CloudWatch"
 	},
 	{
-		"product_name" : "Amazon EC2"
+		"company_product_name" : "Amazon EC2"
 	},
 	{
-		"product_name" : "AWS Batch"
+		"company_product_name" : "AWS Batch"
 	},
 	{
-		"product_name" : "AWS Lambda"
+		"company_product_name" : "AWS Lambda"
 	},
 	{
-		"product_name" : "AWS Elastic Search"
+		"company_product_name" : "AWS Elastic Search"
 	},
 	{
-		"product_name" : "AWS Fargate"
+		"company_product_name" : "AWS Fargate"
 	},
 	{
-		"product_name" : "Amazon LightSail"
+		"company_product_name" : "Amazon LightSail"
 	},
 	{
-		"product_name" : "Amazon RDS"
+		"company_product_name" : "Amazon RDS"
 	},
 	{
-		"product_name" : "Amazon Timestream"
+		"company_product_name" : "Amazon Timestream"
 	},
 	{
-		"product_name" : "Amazon Aurora"
+		"company_product_name" : "Amazon Aurora"
 	},
 	{
-		"product_name" : "Amazon Dynamo DB"
+		"company_product_name" : "Amazon Dynamo DB"
 	},
 	{
-		"product_name" : "AWS Iot Core"
+		"company_product_name" : "AWS Iot Core"
 	},
 	{
-		"product_name" : "Ambari"
+		"company_product_name" : "Ambari"
 	},
 	{
-		"product_name" : "Aurora"
+		"company_product_name" : "Aurora"
 	},
 	{
-		"product_name" : "Airflow"
+		"company_product_name" : "Airflow"
 	},
 	{
-		"product_name" : "Cassandra"
+		"company_product_name" : "Cassandra"
 	},
 	{
-		"product_name" : "Camel"
+		"company_product_name" : "Camel"
 	},
 	{
-		"product_name" : "CloudStack"
+		"company_product_name" : "CloudStack"
 	},
 	{
-		"product_name" : "CouchDB"
+		"company_product_name" : "CouchDB"
 	},
 	{
-		"product_name" : "Derby"
+		"company_product_name" : "Derby"
 	},
 	{
-		"product_name" : "Directory"
+		"company_product_name" : "Directory"
 	},
 	{
-		"product_name" : "Drill"
+		"company_product_name" : "Drill"
 	},
 	{
-		"product_name" : "Dubbo"
+		"company_product_name" : "Dubbo"
 	},
 	{
-		"product_name" : "Eagle"
+		"company_product_name" : "Eagle"
 	},
 	{
-		"product_name" : "Flix"
+		"company_product_name" : "Flix"
 	},
 	{
-		"product_name" : "Flume"
+		"company_product_name" : "Flume"
 	},
 	{
-		"product_name" : "Hadoop"
+		"company_product_name" : "Hadoop"
 	},
 	{
-		"product_name" : "HBase"
+		"company_product_name" : "HBase"
 	},
 	{
-		"product_name" : "Kafka"
+		"company_product_name" : "Kafka"
 	},
 	{
-		"product_name" : "Zoopkeeper"
+		"company_product_name" : "Zoopkeeper"
 	},
 	{
-		"product_name" : "Oozie"
+		"company_product_name" : "Oozie"
 	}
 ]
