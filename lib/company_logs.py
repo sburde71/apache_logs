@@ -156,7 +156,7 @@ class LogGenerator:
         total = 0
         for t in hash.values():
             total = total + t
-        rand = random.randint(0, total, 1)
+        rand = random.randint(0, total)
 
         running = 0
         for (key, weight) in hash.items():
